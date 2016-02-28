@@ -2,9 +2,7 @@ $(function () {
     $('.user-signup-chart').highcharts({
         chart: {
             type: 'areaspline',
-            width: 750,
             marginBottom: 50
-
         },
         title: {
             text: 'Recent Users'
@@ -43,7 +41,7 @@ $(function () {
         },
         series: [{
             name: 'Users',
-            data: [2.6, 3.75, 2.6, 5, 3.75, 10, 12.3]
+            data: [5, 3.75, 7.6, 5, 3.75, 10, 12.3]
         }]
     });
 });
